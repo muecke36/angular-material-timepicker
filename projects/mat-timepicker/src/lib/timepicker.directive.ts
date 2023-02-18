@@ -28,11 +28,11 @@ import {
   HostListener,
   TemplateRef,
 } from '@angular/core';
-import { MatDialog, MatDialogRef } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog, MatLegacyDialogRef as MatDialogRef } from '@angular/material/legacy-dialog';
 import {
-  MatFormFieldControl,
-  MatFormField,
-} from '@angular/material/form-field';
+  MatLegacyFormFieldControl as MatFormFieldControl,
+  MatLegacyFormField as MatFormField,
+} from '@angular/material/legacy-form-field';
 import {
   ClockMode,
   IAllowed24HourMap,
