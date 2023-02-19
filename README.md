@@ -27,6 +27,15 @@ import { MatTimepickerModule } from 'mat-timepicker';
 export class YourModule { }
 ```
 
+## publish to npmjs.com
+
+```
+ng build mat-timepicker -c production
+cd .\dist\mat-timepicker\
+npm pack
+npm publish --access public
+```
+
 ## Simple Case
 
 ```html
